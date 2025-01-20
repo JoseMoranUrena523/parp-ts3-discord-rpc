@@ -11,16 +11,22 @@ TeamSpeak 3 Discord Rich Presence integration for Philadelphia Roleplay (PARP)
 
 ### Installation
 1. Clone the repository to your local machine.
-2. Install dependencies:  
+2. Install dependencies:
+
    ```bash
    npm i
    ```
+3. Change the `config.json` based on your configuration:
 
-3. Open TeamSpeak 3 and make sure that the **ClientQuery** plugin is installed.
-
-4. Join the **PARP TS3 server**.
-
-5. Run the project:  
+   ```json
+   {
+     "ts3ApiKey": "DRQ7-2MU6-EQAX-MWBS-W4G9-YZF8",
+     "robloxUsername": "jlbubbles0920_YT"
+   }
+   ```
+4. Open TeamSpeak 3 and make sure that the **ClientQuery** plugin is installed.
+5. Join the **PARP TS3 server**.
+6. Run the project:  
    ```bash
    npm start
    ```
