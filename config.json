@@ -1,0 +1,4 @@
+{
+  "ts3ApiKey": "YOUR_CLIENTQUERY_API_KEY (found in TeamSpeak under Preferences > Addons > ClientQuery settings)",
+  "robloxUsername": "YOUR_ROBLOX_USERNAME (make sure this is part of your TeamSpeak 3 nickname)"
+}
