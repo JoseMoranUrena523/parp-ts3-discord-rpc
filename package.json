@@ -1,0 +1,17 @@
+{
+  "name": "parp-ts3-discord-rpc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["discord", "teamspeak", "rpc"],
+  "author": "Jose Moran Urena",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "telnet-client": "^2.2.2"
+  }
+}
