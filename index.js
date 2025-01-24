@@ -41,6 +41,9 @@ async function connectToTS3() {
         smallImageKey: "teamspeak_logo",
         largeImageText: "Philadelphia Roleplay",
         smallImageText: "TeamSpeak 3",
+        buttons: [
+          { label: 'Join PARP', url: 'https://discord.gg/UFSngYZa32' }
+        ]
       });
     }
   } catch (error) {
